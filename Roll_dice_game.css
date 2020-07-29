@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: lato;
+}
+
+body{
+    background-image: url(Roll_dice_game_images/Background_image.jpg);
+}
+
+#wrapper{
+    text-align: center;
+    width: 1200px;
+    height: 600px;
+    /* border: 1px solid black; */
+    background: -webkit-linear-gradient(left, white 0%, rgb(167, 165, 165) 100%);
+    position: relative;
+    top: 25px;
+    left: 85px;
+}
+
+.player-panel-0, .player-panel-1{
+    width: 50%;
+    height: 600px;
+    /* border: 1px solid black; */
+    float: left;
+    text-align: center;
+}
+
+.player-panel-0{
+    background-color: rgb(238, 227, 227);
+}
+
+.player-panel-1{
+    background-color: rgb(240, 238, 238);
+}
+
+.player-name{
+    font-weight: normal;
+    font-size: 58px;
+    position: relative;
+    top:100px;
+}
+
+.player-score{
+    font-weight: normal;
+    font-size: 68px;
+    position: relative;
+    top:150px;
+}
+
+.current{
+    background-color: rgb(240, 102, 102);
+    width: 150px;
+    height: 75px;
+    padding: 5px;
+    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+#cur-0{
+    position: absolute;
+    top: 420px;
+    left: 220px;
+}
+
+#cur-1{
+    position: absolute;
+    top: 420px;
+    left: 820px;
+}
+
+p{
+    padding: 5px;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.current-score{
+    font-weight: normal;
+    font-size: 28px;
+    position: relative;
+    top: 2px;
+}
+
+button{
+    position: absolute;
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+    font-weight: normal;
+    color:  rgb(240, 102, 102) ;
+    cursor: pointer;
+}
+
+.btn-new{
+    top: 40px;
+    left: 492px;
+    padding: 5px;
+}
+
+.btn-roll{
+    top: 400px;
+    left: 500px;
+    padding: 5px;
+}
+
+.btn-hold{
+    left: 527px;
+    top: 470px;
+    padding: 5px;
+}
+
+.dice{
+    width: 100px;
+    height: 100px;
+}
+
+#dice-1{
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+
+button:hover{
+    border: 2px solid black;
+    background-color: rgb(243, 124, 124);
+    color: black;
+}
+
+ .active{
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    position: relative;
+    top: 60px;
+    left: 160px;
+    background-color: red;   
+} 
+
+.winner{
+    color: red;
+    text-decoration: underline;
+    font-size: 78px;
+}
+
+
+
+/* Version 2 */
+
+/*  input{
+    position: absolute;
+    top: 550px;
+    left: 480px;
+    text-align: center;
+    width: 110px;
+    height: 30px;
+    font-weight: bolder;
+}
+
+#value{
+    width: 100px;
+    height: 35px;
+    position:absolute;
+    top: 550px;
+    left: 600px;
+    font-size: 26px;
+}   */
+
+
+
+/* Version 3 */
+
+/*  #dice-1{
+    position:absolute;
+    left: 550px;
+    top: 135px;
+}
+
+#dice-2{
+    position: absolute;
+    left: 550px;
+    top: 265px;
+}   */
