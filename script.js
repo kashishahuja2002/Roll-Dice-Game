@@ -17,7 +17,7 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
 
         //Display the number
         document.querySelector('#dice-1').style.display='inline-block';
-        document.querySelector('#dice-1').src="Roll_dice_game_images/Dice_"+dice+".png";
+        document.querySelector('#dice-1').src="images/Dice_"+dice+".png";
         
         // Update roundScore
         if (dice!==1){
@@ -168,7 +168,7 @@ function nextPlayer(){
 function btnRoll(d){
     //Display the number
     document.querySelector('#dice-1').style.display='inline-block';
-    document.querySelector('#dice-1').src="Roll_dice_game_images/Dice_"+d+".png";
+    document.querySelector('#dice-1').src="images/Dice_"+d+".png";
 
     //Update round score
         if (dice!==1){
@@ -206,7 +206,7 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
 
         //Display the number
         document.querySelector('#dice-1').style.display='inline-block';
-        document.querySelector('#dice-1').src="Roll_dice_game_images/Dice_"+dice+".png";
+        document.querySelector('#dice-1').src="images/Dice_"+dice+".png";
         
         // Update roundScore
         if (dice!==1){
@@ -289,8 +289,8 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
         //Display the number
         document.querySelector('#dice-1').style.display='inline-block';
         document.querySelector('#dice-2').style.display='inline-block';
-        document.querySelector('#dice-1').src="Roll_dice_game_images/Dice_"+dice_1+".png";
-        document.querySelector('#dice-2').src="Roll_dice_game_images/Dice_"+dice_2+".png";
+        document.querySelector('#dice-1').src="images/Dice_"+dice_1+".png";
+        document.querySelector('#dice-2').src="images/Dice_"+dice_2+".png";
         
         // Update roundScore
         if (dice_1!==1 && dice_2!==1){

@@ -5,13 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="Roll_dice_game.css">
+    <link rel="stylesheet" href="style.css">
   
-    <title>Roll_dice_game</title>
+    <title>Roll Dice Game</title>
 </head>
 <body>
+    <div id="rules">
+        <h2>Game Rules</h2>
+        <p>
+            <ul>
+                <li>The game has 2 players, playing in rounds.</li>
+                <li>In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score.</li>
+                <li>BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn.</li>
+                <li>The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn.</li>
+                <li>The first player to reach 100 points on GLOBAL score wins the game.</li>
+            </ul>
+        </p>
+    </div>
+
     <div id="wrapper">
 
+        <!-- Version 0-->
         <div class="player-panel-0">
 
             <div class="player-name" id="name-0">Player 1</div>
@@ -36,11 +50,16 @@
             </div>
         </div>
 
-        <img src="Roll_dice_game_images/Dice_1.png" alt="Dice-1" class="dice" id="dice-1">
+        <img src="images/Dice_1.png" alt="Dice-1" class="dice" id="dice-1">
 
         <button class="btn-new"><i class="ion-ios-plus-outline"></i>New Game</button>
         <button class="btn-roll"><i class="ion-ios-loop"></i>Roll Dice</button>
         <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+
+
+
+
+        <!-- Version 1 -->
 
 
 
@@ -51,10 +70,10 @@
 
 
         <!-- Version 3 -->
-        <!-- <img src="Roll_dice_game_images/Dice_1.png" alt="Dice-2" class="dice" id="dice-2"> -->
+        <!-- <img src="images/Dice_1.png" alt="Dice-2" class="dice" id="dice-2"> -->
     
     </div>
 </body>
 
-  <script src="Roll_dice_game.js"></script>
+  <script src="script.js"></script>
 </html>

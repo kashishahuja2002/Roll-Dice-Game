@@ -5,23 +5,30 @@
 }
 
 body{
-    background-image: url(Roll_dice_game_images/Background_image.jpg);
+    background-image: url(images/Background_image.jpg);
+    font-family: serif;
+}
+
+#rules{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
 }
 
 #wrapper{
     text-align: center;
     width: 1200px;
-    height: 600px;
+    height: 500px;
     /* border: 1px solid black; */
     background: -webkit-linear-gradient(left, white 0%, rgb(167, 165, 165) 100%);
     position: relative;
     top: 25px;
-    left: 85px;
+    left: 150px;
 }
 
 .player-panel-0, .player-panel-1{
     width: 50%;
-    height: 600px;
+    height: 100%;
     /* border: 1px solid black; */
     float: left;
     text-align: center;
@@ -60,13 +67,13 @@ body{
 
 #cur-0{
     position: absolute;
-    top: 420px;
+    top: 350px;
     left: 220px;
 }
 
 #cur-1{
     position: absolute;
-    top: 420px;
+    top: 350px;
     left: 820px;
 }
 
@@ -100,14 +107,14 @@ button{
 }
 
 .btn-roll{
-    top: 400px;
+    top: 350px;
     left: 500px;
     padding: 5px;
 }
 
 .btn-hold{
     left: 527px;
-    top: 470px;
+    top: 400px;
     padding: 5px;
 }
 
